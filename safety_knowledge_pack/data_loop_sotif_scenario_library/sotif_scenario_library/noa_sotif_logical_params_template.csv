@@ -1,0 +1,37 @@
+scenario_id,param_group,param_name,unit,range_or_set,default_value,notes
+C-NOA-XXX,road,road_curvature,1/m,"0~0.02",0.005,road geometry
+C-NOA-XXX,road,lane_count,count,"1,2,3,4",2,lane topology
+C-NOA-XXX,road,speed_limit,kmh,"20~80",50,regulatory speed
+C-NOA-XXX,traffic,traffic_density,veh_per_km,"5~120",40,macro traffic load
+C-NOA-XXX,traffic,cut_in_rate,events_per_min,"0~10",2,interaction aggressiveness
+C-NOA-XXX,traffic,heavy_vehicle_ratio,percent,"0~40",10,occlusion contributor
+C-NOA-XXX,environment,weather,type,"clear,rain,fog,snow",clear,weather class
+C-NOA-XXX,environment,illumination,lux,"1~100000",10000,day-night transition
+C-NOA-XXX,environment,friction_coeff,mu,"0.2~1.0",0.8,tire-road friction
+C-NOA-XXX,perception,occlusion_ratio,percent,"0~90",30,target visibility
+C-NOA-XXX,perception,detection_range,m,"20~250",120,effective sensing range
+C-NOA-XXX,perception,false_negative_rate,percent,"0~30",5,safety-critical misses
+C-NOA-XXX,prediction,target_speed_std,kmh,"0~40",10,behavior uncertainty
+C-NOA-XXX,planning,time_headway,s,"0.8~3.0",1.5,longitudinal margin
+C-NOA-XXX,planning,max_lat_acc,mps2,"0.5~3.5",1.8,comfort-safety tradeoff
+C-NOA-XXX,evaluation,min_ttc,s,"0~10",2.0,criticality threshold
+C-NOA-XXX,evaluation,min_thw,s,"0.5~3.0",1.2,following safety
+C-NOA-XXX,evaluation,min_clearance,m,"0~5",0.8,closest distance
+H-NOA-XXX,road,road_curvature,1/m,"0~0.01",0.003,highway geometry
+H-NOA-XXX,road,lane_count,count,"2,3,4,5",3,lane topology
+H-NOA-XXX,road,speed_limit,kmh,"60~130",100,regulatory speed
+H-NOA-XXX,traffic,traffic_density,veh_per_km,"5~100",35,macro traffic load
+H-NOA-XXX,traffic,cut_in_rate,events_per_min,"0~8",1.5,interaction aggressiveness
+H-NOA-XXX,traffic,heavy_vehicle_ratio,percent,"0~60",20,occlusion contributor
+H-NOA-XXX,environment,weather,type,"clear,rain,fog,snow",clear,weather class
+H-NOA-XXX,environment,illumination,lux,"1~100000",15000,day-night transition
+H-NOA-XXX,environment,friction_coeff,mu,"0.2~1.0",0.85,tire-road friction
+H-NOA-XXX,perception,occlusion_ratio,percent,"0~95",40,target visibility
+H-NOA-XXX,perception,detection_range,m,"30~300",180,effective sensing range
+H-NOA-XXX,perception,false_negative_rate,percent,"0~30",4,safety-critical misses
+H-NOA-XXX,prediction,target_speed_std,kmh,"0~50",12,behavior uncertainty
+H-NOA-XXX,planning,time_headway,s,"0.8~3.0",1.6,longitudinal margin
+H-NOA-XXX,planning,max_lat_acc,mps2,"0.5~3.5",1.6,comfort-safety tradeoff
+H-NOA-XXX,evaluation,min_ttc,s,"0~10",2.5,criticality threshold
+H-NOA-XXX,evaluation,min_thw,s,"0.5~3.0",1.5,following safety
+H-NOA-XXX,evaluation,min_clearance,m,"0~8",1.0,closest distance

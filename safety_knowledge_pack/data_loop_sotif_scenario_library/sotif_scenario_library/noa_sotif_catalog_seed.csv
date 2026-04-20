@@ -1,0 +1,21 @@
+scenario_id,domain,scenario_name,risk_level,priority,sotif_tags,odd_scope,trigger_conditions,status
+C-NOA-001,city,Unprotected left turn conflict,S4,P0,"INSUFF-PREDICTION;TRIGGER-TRAFFIC","urban intersection, day/night","oncoming speed variance high; gap acceptance borderline",not_covered
+C-NOA-002,city,Right turn yielding to VRU,S4,P0,"INSUFF-PERCEPTION;TRIGGER-TRAFFIC","urban intersection with crosswalk","pedestrian/cyclist occlusion at corner",not_covered
+C-NOA-003,city,Construction lane shift,S3,P0,"INSUFF-PLANNING;TRIGGER-ENV","urban arterial","temporary cones and lane topology change",not_covered
+C-NOA-004,city,Bypass double-parked vehicle,S3,P1,"INSUFF-PLANNING;TRIGGER-TRAFFIC","curbside lane","dynamic oncoming vehicle during bypass",not_covered
+C-NOA-005,city,Pedestrian dart-out from occlusion,S4,P0,"INSUFF-PERCEPTION;TRIGGER-RARE","urban road with roadside occluders","sudden pedestrian emergence",not_covered
+C-NOA-006,city,Bus stop merge interaction,S3,P1,"INSUFF-PREDICTION;TRIGGER-TRAFFIC","bus stop area","bus departure and lateral cut-in",not_covered
+C-NOA-007,city,Roundabout negotiation,S3,P1,"INSUFF-PREDICTION;TRIGGER-TRAFFIC","single/multi-lane roundabout","multi-agent entering/exiting conflicts",not_covered
+C-NOA-008,city,Multi-agent priority conflict at complex junction,S4,P0,"INSUFF-PLANNING;TRIGGER-TRAFFIC","complex urban junction","simultaneous crossing intents",not_covered
+C-NOA-009,city,Night rain lane marking instability,S3,P1,"INSUFF-PERCEPTION;TRIGGER-ENV","urban elevated or reflective pavement","specular reflection and weak lane cues",not_covered
+C-NOA-010,city,Urban ramp split confusion,S3,P1,"INSUFF-PLANNING;TRIGGER-ENV","elevated urban ramps","map-topology mismatch near diverge",not_covered
+H-NOA-001,highway,Lead vehicle hard braking,S4,P0,"INSUFF-PREDICTION;TRIGGER-TRAFFIC","highway mainline","deceleration spike ahead",not_covered
+H-NOA-002,highway,Aggressive cut-in with low TTC,S4,P0,"INSUFF-PREDICTION;TRIGGER-TRAFFIC","highway dense flow","adjacent vehicle sudden lane change",not_covered
+H-NOA-003,highway,Occluded stationary obstacle exposure,S4,P0,"INSUFF-PERCEPTION;TRIGGER-RARE","highway behind heavy truck","truck leaves lane revealing stopped object",not_covered
+H-NOA-004,highway,Ramp merge dense interaction,S3,P1,"INSUFF-PLANNING;TRIGGER-TRAFFIC","merge zone","multiple merging vehicles at speed delta",not_covered
+H-NOA-005,highway,Diverge area ghost split path,S3,P1,"INSUFF-PLANNING;TRIGGER-ENV","highway diverge","lane markings and map ambiguity",not_covered
+H-NOA-006,highway,Curve plus rain perception degradation,S3,P1,"INSUFF-PERCEPTION;TRIGGER-ENV","curved highway in rain","visibility and friction reduction",not_covered
+H-NOA-007,highway,Toll area topology transition,S3,P1,"INSUFF-PLANNING;TRIGGER-ENV","tolling area","rapid lane and speed regime changes",not_covered
+H-NOA-008,highway,Tunnel luminance transition,S3,P1,"INSUFF-PERCEPTION;TRIGGER-ENV","tunnel entry/exit","sudden brightness and sensor adaptation",not_covered
+H-NOA-009,highway,Debris avoidance under traffic pressure,S4,P0,"INSUFF-PLANNING;TRIGGER-RARE","highway cruising","foreign object with adjacent traffic constraints",not_covered
+H-NOA-010,highway,Stop-and-go oscillation with frequent cut-ins,S3,P1,"INSUFF-PREDICTION;TRIGGER-TRAFFIC","congested highway","short gaps and repeated intrusions",not_covered
